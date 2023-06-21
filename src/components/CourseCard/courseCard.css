@@ -1,0 +1,81 @@
+.courseCard {
+  flex-shrink: 0;
+  width: 25rem;
+  height: 15rem;
+  background: #fff;
+
+  border-radius: 2rem;
+  cursor: pointer;
+  position: relative;
+
+  overflow: hidden;
+  position: relative;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.courseCard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.courseCard:hover .gameDesignImg {
+  /* transform: scale(40); */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.courseInfo {
+  font-family: var(--cabin);
+  color: #fefefe;
+  padding: 1.5rem 1rem;
+  background: -webkit-radial-gradient(
+    ellipse farthest-side at bottom right,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.35) 90%
+  );
+  background: -moz-radial-gradient(
+    ellipse farthest-side at bottom right,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.35) 90%
+  );
+  background: radial-gradient(
+    ellipse farthest-side at bottom right,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.35) 90%
+  );
+
+  backdrop-filter: blur(5px);
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+  min-height: 60%;
+
+  transition: min-height 0.25s ease-in-out;
+}
+
+.courseTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.courseDesc {
+  font-size: 0.875rem;
+  line-height: 1.3;
+  font-family: var(--cabin);
+}
+
+.courseCard:hover .courseInfo {
+  min-height: 100%;
+}

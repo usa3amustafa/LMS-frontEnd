@@ -1,0 +1,67 @@
+.statisticsCard {
+  flex-shrink: 0;
+  width: 22.5rem;
+  height: 12.5rem;
+  background: #45df59;
+  background: -webkit-radial-gradient(
+    ellipse farthest-side at bottom right,
+    rgba(69, 223, 89, 0.25) 0%,
+    rgba(255, 255, 255, 0.1) 90%
+  );
+  background: -moz-radial-gradient(
+    ellipse farthest-side at bottom right,
+    rgba(69, 223, 89, 0.25) 0%,
+    rgba(255, 255, 255, 0.1) 90%
+  );
+  background: radial-gradient(
+    ellipse farthest-side at bottom right,
+    rgba(69, 223, 89, 0.25) 0%,
+    rgba(255, 255, 255, 0.1) 90%
+  );
+
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  backdrop-filter: blur(5px);
+
+  border-radius: 2rem;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.statisticsCard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.range {
+  position: absolute;
+  right: 5%;
+  top: 7.5%;
+}
+
+.cardIcon {
+  margin-bottom: 0.5rem;
+}
+
+.cardIconImg {
+  max-width: 2rem;
+}
+
+.statisticsCardTitle {
+  font-family: var(--cabin);
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #fefefe;
+}
+
+.statisticsCardScores,
+.statisticsCardScores .score,
+.statisticsCardScores .total {
+  font-family: var(--cabin);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #fefefe;
+}

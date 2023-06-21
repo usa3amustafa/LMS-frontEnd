@@ -1,0 +1,29 @@
+.schoolName {
+  font-size: 6rem;
+  letter-spacing: 1px;
+  color: #fefefe;
+}
+
+.loginBtn {
+  padding: 1.25rem 5rem;
+  background: transparent;
+  backdrop-filter: blur(1px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid #9a9997;
+  border-radius: 5rem;
+  cursor: pointer;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  transform: scale(0.8);
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.loginBtn:hover {
+  transform: scale(1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}

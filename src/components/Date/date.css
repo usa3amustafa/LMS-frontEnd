@@ -1,0 +1,14 @@
+.classesDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.classDot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: aqua;
+  border-radius: 5rem;
+}

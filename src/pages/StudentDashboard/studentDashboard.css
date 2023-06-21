@@ -1,0 +1,21 @@
+.studentDashboardMain {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  column-gap: 2rem;
+
+  min-height: 80vh;
+  margin-top: 2rem;
+}
+
+.studentDashboardRightCol {
+  max-height: 800px;
+  margin: 2.5rem 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.studentDashboardLeftCol {
+  overflow: hidden;
+}

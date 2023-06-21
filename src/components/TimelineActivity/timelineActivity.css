@@ -1,0 +1,35 @@
+.timestamp {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+
+  margin-bottom: 0.5rem;
+}
+
+.time {
+  font-family: var(--cabin);
+  color: #fefefe;
+}
+
+.timelineActivityInfo {
+  background-color: #45df59;
+  width: 90%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: var(--cabin);
+  color: #261339;
+
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+
+.timelineActivityTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.timelineActivityDesc {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}

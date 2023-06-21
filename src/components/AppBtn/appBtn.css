@@ -1,0 +1,27 @@
+.appBtn {
+  flex-shrink: 0;
+  width: 10rem;
+  height: 10rem;
+  background: transparent;
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid #9a9997;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.appBtn:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.appBtnIcon {
+  max-width: 3rem;
+}

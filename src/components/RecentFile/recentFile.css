@@ -1,0 +1,21 @@
+.recentFile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recentFile + .recentFile {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #9a9997;
+}
+
+.recentFileTitle {
+  font-family: var(--cabin);
+  color: #fefefe;
+}
+
+.recentFileIconImg {
+  max-width: 1.5rem;
+}

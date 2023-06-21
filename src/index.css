@@ -1,5 +1,110 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Bolde';
+  src: url('./assets/fonts/BOLDE.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Qountero';
+  src: url('./assets/fonts/Qountero.ttf') format('truetype');
+}
+
+:root {
+  --bolde: 'Bolde';
+  --qountero: 'Qountero';
+  --cabin: 'Cabin', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url('./assets/bg/loginBg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: var(--bolde);
+}
+
+img {
+  max-width: 100%;
+}
+
+.knakLogo {
+  max-width: 7.5rem;
+}
+
+.container {
+  width: 97.5%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* utilities */
+
+/* sizing utilities */
+
+.h-full {
+  min-height: 100vh;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+/* flex utilities */
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* grid utilities */
+
+.grid {
+  display: grid;
+}
+
+.grid-3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* position utilities */
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.bottom-5 {
+  bottom: 5%;
 }

@@ -1,0 +1,15 @@
+.seperatorBar {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  margin: 0.5rem 0 1.25rem 0;
+}
+
+.whiteBar {
+  background-color: #fefefe;
+  height: 1.5px;
+}
+
+.blueBar {
+  background-color: #2b2a54;
+  height: 1.5px;
+}

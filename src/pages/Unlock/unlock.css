@@ -1,0 +1,75 @@
+.unlockMain {
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unlock {
+  position: relative;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unlockForm {
+  padding: 3rem;
+  border: 1px solid #f6e2e2;
+  border-radius: 1rem;
+  width: 30%;
+
+  gap: 1rem;
+  backdrop-filter: blur(15px);
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background: #eef6ef;
+  border: none;
+  border-radius: 0.25rem;
+  outline: none;
+  color: #002259;
+  font-size: 1rem;
+  font-family: var(--qountero);
+}
+
+input[type='email'] {
+  margin-bottom: 1rem;
+}
+
+input[type='password'] {
+  margin-bottom: 2rem;
+}
+
+input::placeholder {
+  font-weight: 300;
+  opacity: 0.5;
+  color: #002259;
+  font-family: var(--qountero);
+}
+
+.unlockBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.unlockBtn {
+  padding: 0.5rem;
+  border-radius: 5rem;
+  outline: none;
+  border: none;
+}
+
+.unlockBtnIcon {
+  max-width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
